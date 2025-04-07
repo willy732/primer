@@ -1,0 +1,26 @@
+# Ignorar node_modules (se instalarán dentro del contenedor)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos de construcción locales
+build
+dist
+
+# Ignorar configuraciones de entorno local
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas de control de versiones
+.git
+.gitignore
+
+# Ignorar archivos de editor/IDE
+.vscode
+.idea
+*.swp
